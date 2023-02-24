@@ -1,0 +1,136 @@
+.story {
+  &__info {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 35px 0;
+
+    @media (max-width: 1024px) {
+      font-size: 14px;
+      padding: 30px 0;
+    }
+
+    @media (max-width: 320px) {
+      padding: 12px 0;
+    }
+  }
+
+  &__block-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 58px 0 108px 0;
+
+    @media (max-width: 1024px) {
+      gap: 17px;
+      padding: 48px 0 60px 0;
+    }
+
+    @media (max-width: 320px) {
+      padding: 30px 0 60px 0;
+    }
+  }
+
+  &__image {
+    position: relative;
+
+    & img {
+      width: 370px;
+      height: 338px;
+
+      @media (max-width: 1024px) {
+        width: 317px;
+        height: 282px;
+      }
+
+      @media (max-width: 320px) {
+        width: 288px;
+        height: 258px;
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+      .story__image_hover-block {
+        display: block;
+      }
+    }
+
+    &:active {
+      .story__icon,
+      .story__text {
+        color: #d3701f;
+      }
+    }
+
+    &_hover-block {
+      width: 370px;
+      height: 338px;
+      background: linear-gradient(to top, rgba(237, 215, 137, 0.902), rgba(233, 130, 132, 0.9));
+      position: absolute;
+      top: -1rem;
+      left: -1rem;
+      display: none;
+      text-align: center;
+
+
+      @media (max-width: 1024px) {
+        width: 317px;
+        height: 282px;
+        top: -7px;
+        left: -6px;
+      }
+
+      @media (max-width: 320px) {
+        width: 288px;
+        height: 83px;
+        display: block;
+        top: calc(100% - 88px);
+        left: 0;
+        text-align: left;
+        display: flex;
+        align-items: center;
+      }
+
+    }
+  }
+
+
+  &__icon {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    margin-top: 129px;
+
+    @media (max-width: 2014px) {
+      width: 33px;
+      height: 33px;
+      margin-top: 108px;
+    }
+
+    @media (max-width: 320px) {
+      margin-top: 27px;
+      width: 30px;
+      height: 30px;
+      margin-top: 0;
+      margin-left: 14px;
+    }
+  }
+
+  &__text {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+
+    @media (max-width: 1024px) {
+      font-size: 18px;
+    }
+
+    @media (max-width: 320px) {
+      margin-top: 0;
+      margin-left: 32px;
+    }
+  }
+}

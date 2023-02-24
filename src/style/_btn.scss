@@ -1,0 +1,81 @@
+$btn-color: #fff;
+$btn-color-hover: #c17d35;
+$btn-color-active: red;
+
+$btn-font-size-base-desktop: 1.5rem;
+$btn-font-size-base-tablet: 1.125rem;
+
+
+$btn-size-base-padding-desktop: 1.875rem 7.9375rem;  //30px 127px
+$btn-size-base-padding-tablet: 1rem 6.3125rem;  //16px 101px
+$btn-size-base-padding-mobile: 1rem 5rem;  //16px 80px
+
+$btn-position-base-margin-top-desktop: 4.6875rem;  //75px
+$btn-position-base-margin-top-tablet: 3.125rem;  //50px
+$btn-position-base-margin-top-mobile: 3.0625rem;  //49px
+
+
+
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $btn-color;
+  font-family: 'Raleway', sans-serif;
+
+  &_font-size-base {
+    font-size: $btn-font-size-base-desktop;
+
+    @media (max-width: 1024px) {
+      font-size: $btn-font-size-base-tablet;
+    }
+  }
+
+  &_size-base {
+    padding: $btn-size-base-padding-desktop;
+
+    @media (max-width: 1024px) {
+      padding: $btn-size-base-padding-tablet;
+    }
+
+    @media (max-width: 320px) {
+      padding: $btn-size-base-padding-mobile;
+    }
+  }
+
+  &_bg-color-none {
+    text-decoration: none;
+    background-color: transparent;
+    border: 4px solid $btn-color;
+  }
+
+  &_position-base {
+    margin-top: $btn-position-base-margin-top-desktop;
+
+    @media (max-width: 1024px) {
+      margin-top: $btn-position-base-margin-top-tablet;
+    }
+
+    @media (max-width: 320px) {
+      margin-top: $btn-position-base-margin-top-mobile;
+    }
+  }
+
+  &:hover {
+    color: $btn-color-hover;
+    border-color: $btn-color-hover;
+    cursor: pointer;
+  }
+
+  &:active {
+    color: $btn-color-active;
+    border-color: $btn-color-active;
+    box-shadow: -1px 0px 10px 7px rgba(219, 57, 29, 0.2) inset;
+  }
+
+
+
+  // &_size-small {
+
+  // }
+}
