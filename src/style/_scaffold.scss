@@ -98,3 +98,20 @@ a {
 .section_futures {
   background-color: #95E1D3;
 }
+
+.section_devices {
+  height: 868px;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(./images/devices-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 30px;
+
+  @media (max-width: 1024px) {
+    height: 588px;
+  }
+
+  @media (max-width: 320px) {
+    height: 470px;
+  }
+}
