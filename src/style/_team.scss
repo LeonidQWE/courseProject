@@ -1,0 +1,158 @@
+.team {
+  &__info {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 35px 0;
+
+    @media (max-width: 1024px) {
+      font-size: 14px;
+      padding: 30px 0;
+    }
+
+    @media (max-width: 320px) {
+      padding: 12px 0;
+    }
+  }
+
+  &__profile-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 58px 0 84px 0;
+
+    @media (max-width: 1024px) {
+      gap: 17px;
+      padding: 48px 0 60px 0;
+    }
+
+    @media (max-width: 320px) {
+      gap: 30px;
+      padding: 30px 0 60px 0;
+    }
+  }
+
+  &__photo {
+    position: relative;
+
+    & img {
+      width: 370px;
+      height: 424px;
+
+      @media (max-width: 1024px) {
+        width: 310px;
+        height: 359px;
+      }
+
+      @media (max-width: 320px) {
+        width: 288px;
+        height: 236px;
+        object-fit: cover;
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+      .team__photo_hover-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    &_hover-block {
+      width: 370px;
+      height: 424px;
+      background: linear-gradient(to top, rgba(237, 215, 137, 0.902), rgba(233, 130, 132, 0.9));
+      position: absolute;
+      top: -1rem;
+      left: -1rem;
+      display: none;
+
+      @media (max-width: 1024px) {
+        width: 310px;
+        height: 359px;
+        top: -7px;
+        left: -6px;
+      }
+
+      @media (max-width: 320px) {
+        display: flex;
+        justify-content: end;
+        gap: 1px;
+        background: transparent;
+        height: 42px;
+        width: 288px;
+        top: calc(100% - 47px);
+        left: 0;
+      }
+    }
+  }
+
+  &__icon-facebook,
+  &__icon-twitter,
+  &__icon-pinterest,
+  &__icon-instagram {
+    width: 42px;
+    height: 42px;
+
+    @media (max-width: 1024px) {
+      width: 35px;
+      height: 35px;
+    }
+
+    @media (max-width: 320px) {
+      width: 42px;
+      height: 42px;
+    }
+
+    &:hover {
+      width: 50px;
+      height: 50px;
+    }
+
+    &:active {
+      color: red;
+    }
+  }
+
+  &__icon-facebook {
+    background-color: #F38281;
+    color: #fff;
+  }
+
+  &__icon-twitter,
+  &__icon-pinterest,
+  &__icon-instagram {
+    color: #f38281;
+    background-color: #f9efcf;
+  }
+
+  &__name {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 25px 0;
+    text-align: center;
+
+    @media (max-width: 1024px) {
+      font-size: 18px;
+      padding: 13px 0;
+    }
+  }
+
+  &__profession {
+    text-transform: uppercase;
+    font-style: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 6px 0;
+
+    @media (max-width: 1024px) {
+      font-size: 14px;
+      padding: 0;
+    }
+  }
+
+
+}
