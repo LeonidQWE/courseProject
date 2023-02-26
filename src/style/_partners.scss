@@ -1,0 +1,109 @@
+.partners {
+  height: 211px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 1024px) {
+    height: 143px;
+  }
+
+  @media (max-width: 320px) {
+    height: 396px;
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(4, 86px);
+    column-gap: 0px;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+    "par-one  .         par-two"
+    ".        par-five  ."
+    "par-four .         par-three"
+    ".        par-six   .";
+  }
+
+  &__one {
+    width: 127px;
+    height: 127px;
+
+    @media (max-width: 1024px) {
+      width: 86px;
+      height: 86px;
+    }
+
+    @media (max-width: 320px) {
+      grid-area: par-one;
+    }
+  }
+
+  &__two {
+    width: 127px;
+    height: 127px;
+
+    @media (max-width: 1024px) {
+      width: 86px;
+      height: 86px;
+    }
+
+    @media (max-width: 320px) {
+      grid-area: par-two;
+    }
+  }
+
+  &__three {
+    width: 72px;
+    height: 67px;
+
+    @media (max-width: 1024px) {
+      width: 49px;
+      height: 45px;
+    }
+
+    @media (max-width: 320px) {
+      grid-area: par-three;
+    }
+  }
+
+  &__four {
+    width: 80px;
+    height: 80px;
+
+    @media (max-width: 1024px) {
+      width: 54px;
+      height: 54px;
+    }
+
+    @media (max-width: 320px) {
+      grid-area: par-four;
+    }
+  }
+
+  &__five {
+    width: 68px;
+    height: 67px;
+
+    @media (max-width: 1024px) {
+      width: 46px;
+      height: 45px;
+    }
+
+    @media (max-width: 320px) {
+      grid-area: par-five;
+    }
+  }
+
+  &__six {
+    width: 127px;
+    height: 127px;
+
+    @media (max-width: 1024px) {
+      width: 86px;
+      height: 86px;
+    }
+
+    @media (max-width: 320px) {
+      grid-area: par-six;
+    }
+  }
+}
