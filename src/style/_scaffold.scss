@@ -129,3 +129,15 @@ a {
     padding: 30px 20px;
   }
 }
+
+.section_our-work {
+  padding: 0;
+}
+
+.container_our-work {
+  max-width: 1510px;
+
+  @media (max-width: 1024px) {
+    max-width: 1024px;
+  }
+}
