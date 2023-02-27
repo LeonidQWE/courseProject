@@ -141,3 +141,21 @@ a {
     max-width: 1024px;
   }
 }
+
+.section_happy-clients-background-image {
+  height: 923px;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/happy-clients-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 30px;
+
+  @media (max-width: 1024px) {
+    height: 626px;
+  }
+
+  @media (max-width: 320px) {
+    height: 1580px;
+    background-repeat: repeat-y;
+  }
+}
