@@ -18,7 +18,7 @@
   }
 
   &[open]>.details__box::after {
-    content: url(./images/details-box-open.png);
+    content: url(../images/details-box-open.png);
     position: absolute;
     top: 20px;
     right: 14px;
@@ -48,7 +48,7 @@
     }
 
     &::after {
-      content: url(./images/details-box-close.png);
+      content: url(../images/details-box-close.png);
       position: absolute;
       top: 20px;
       right: 14px;
