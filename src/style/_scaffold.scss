@@ -148,7 +148,6 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  margin-bottom: 30px;
 
   @media (max-width: 1024px) {
     height: 626px;
@@ -158,4 +157,8 @@ a {
     height: 1580px;
     background-repeat: repeat-y;
   }
+}
+
+.section_footer-background-color-gray {
+  background-color: #f8f8f8;
 }

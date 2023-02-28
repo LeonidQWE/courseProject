@@ -1,0 +1,110 @@
+.links {
+  &__logo {
+
+    @media (max-width: 320px) {
+      margin-left: 100px;
+    }
+
+    & > img {
+      width: 270px;
+      height: 100px;
+
+      @media (max-width: 1024px) {
+        width: 183px;
+        height: 68px;
+      }
+    }
+  }
+
+  &__text {
+    font-size: 18px;
+    color: #C6CBCD;
+    padding: 12px 4px 12px 0;
+
+    @media (max-width: 1024px) {
+      font-size: 14px;
+      padding: 12px 16px 12px 0;
+    }
+
+    @media (max-width: 320px) {
+      padding: 0;
+      text-align: center;
+    }
+  }
+
+  &__followers {
+    color: #2D3033;
+    padding: 13px 0;
+
+    @media (max-width: 1024px) {
+      padding: 15px 0;
+    }
+
+    @media (max-width: 320px) {
+      text-align: center;
+      padding: 12px 0;
+    }
+  }
+
+  &__separator {
+    width: 370px;
+    height: 1px;
+    background-color: #C6CBCD;
+
+    @media (max-width: 1024px) {
+      width: 317px;
+    }
+
+    @media (max-width: 320px) {
+      width: 100%;
+    }
+  }
+
+  &__follow {
+    width: 370px;
+    padding: 10px 0;
+    display: inline-flex;
+    justify-content: space-between;
+
+    @media (max-width: 1024px) {
+      width: 317px;
+      padding: 7px 0;
+    }
+
+    @media (max-width: 320px) {
+      width: 288px;
+    }
+  }
+
+  &__form {
+    margin-top: 37px;
+
+    @media (max-width: 1024px) {
+      margin-top: 25px;
+    }
+  }
+
+  &__input {
+    width: 236px;
+    height: 55px;
+    border: 1px solid #C6CBCD;
+
+    @media (max-width: 1024px) {
+      width: 171px;
+      height: 37px;
+    }
+
+    @media (max-width: 320px) {
+      width: 288px;
+    }
+
+    &:focus::-webkit-input-placeholder {
+      color: transparent
+    }
+
+    &::placeholder {
+      color: #C6CBCD;
+      text-align: center;
+    }
+  }
+}
