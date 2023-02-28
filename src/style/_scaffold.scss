@@ -41,6 +41,82 @@ a {
   @media (max-width: 320px) {
     max-width: 320px;
   }
+
+  &_header {
+    height: 1024px;
+    background: linear-gradient(to top, rgba(237, 215, 137, 0.9), rgba(233, 130, 132, 0.9)), url(../images/header-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    @media (max-width: 1024px) {
+      height: 694px;
+    }
+
+    @media (max-width: 320px) {
+      height: 574px;
+    }
+  }
+
+  &_futures {
+    background-color: #95E1D3;
+  }
+
+  &_devices {
+    height: 868px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../images/devices-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 30px;
+
+    @media (max-width: 1024px) {
+      height: 588px;
+    }
+
+    @media (max-width: 320px) {
+      height: 470px;
+    }
+  }
+
+  &_partners {
+    background-color: #f8f8f8;
+    height: 211px;
+
+    @media (max-width: 1024px) {
+      height: 143px;
+    }
+
+    @media (max-width: 320px) {
+      height: 396px;
+      padding: 30px 20px;
+    }
+  }
+
+  &_our-work {
+    padding: 0;
+  }
+
+  &_happy-clients-background-image {
+    height: 923px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/happy-clients-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    @media (max-width: 1024px) {
+      height: 626px;
+    }
+
+    @media (max-width: 320px) {
+      height: 1580px;
+      background-repeat: repeat-y;
+    }
+  }
+
+  &_footer-background-color-gray {
+    background-color: #f8f8f8;
+  }
 }
 
 .container {
@@ -52,22 +128,6 @@ a {
 
   @media (max-width: 320px) {
     min-width: 288px;
-  }
-}
-
-.section_header {
-  height: 1024px;
-  background: linear-gradient(to top, rgba(237, 215, 137, 0.9), rgba(233, 130, 132, 0.9)), url(../images/header-background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-
-  @media (max-width: 1024px) {
-    height: 694px;
-  }
-
-  @media (max-width: 320px) {
-    height: 574px;
   }
 }
 
@@ -95,70 +155,10 @@ a {
   }
 }
 
-.section_futures {
-  background-color: #95E1D3;
-}
-
-.section_devices {
-  height: 868px;
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../images/devices-background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  margin-bottom: 30px;
-
-  @media (max-width: 1024px) {
-    height: 588px;
-  }
-
-  @media (max-width: 320px) {
-    height: 470px;
-  }
-}
-
-.section_partners {
-  background-color: #f8f8f8;
-  height: 211px;
-
-  @media (max-width: 1024px) {
-    height: 143px;
-  }
-
-  @media (max-width: 320px) {
-    height: 396px;
-    padding: 30px 20px;
-  }
-}
-
-.section_our-work {
-  padding: 0;
-}
-
 .container_our-work {
   max-width: 1510px;
 
   @media (max-width: 1024px) {
     max-width: 1024px;
   }
-}
-
-.section_happy-clients-background-image {
-  height: 923px;
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/happy-clients-background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-
-  @media (max-width: 1024px) {
-    height: 626px;
-  }
-
-  @media (max-width: 320px) {
-    height: 1580px;
-    background-repeat: repeat-y;
-  }
-}
-
-.section_footer-background-color-gray {
-  background-color: #f8f8f8;
 }
