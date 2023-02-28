@@ -13,7 +13,7 @@
   &__tablet {
     position: relative;
 
-    &_frame {
+    &_frame-image {
       width: 700px;
       height: 530px;
       position: absolute;
@@ -33,7 +33,7 @@
       }
     }
 
-    &_display {
+    &_display-image {
       width: 659px;
       position: absolute;
       left: 254px;

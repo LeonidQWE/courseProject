@@ -69,7 +69,7 @@ $navbar-search-height-tablet: 1rem;  //16px
     padding: 6px 0;
     text-transform: uppercase;
 
-    &_position {
+    &_position-flex {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -93,7 +93,7 @@ $navbar-search-height-tablet: 1rem;  //16px
     color: #fff;
     display: none;
 
-    &_icon {
+    &_icon-size {
       width: 24px;
       height: 18px;
     }

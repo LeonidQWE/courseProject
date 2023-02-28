@@ -42,7 +42,7 @@ a {
     max-width: 320px;
   }
 
-  &_header {
+  &_header-background {
     height: 1024px;
     background: linear-gradient(to top, rgba(237, 215, 137, 0.9), rgba(233, 130, 132, 0.9)), url(../images/header-background.png);
     background-size: cover;
@@ -58,11 +58,11 @@ a {
     }
   }
 
-  &_futures {
+  &_futures-background {
     background-color: #95E1D3;
   }
 
-  &_devices {
+  &_devices-background {
     height: 868px;
     background: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../images/devices-background.png);
     background-size: cover;
@@ -79,7 +79,7 @@ a {
     }
   }
 
-  &_partners {
+  &_partners-background {
     background-color: #f8f8f8;
     height: 211px;
 
@@ -93,7 +93,7 @@ a {
     }
   }
 
-  &_our-work {
+  &_our-work-padding {
     padding: 0;
   }
 

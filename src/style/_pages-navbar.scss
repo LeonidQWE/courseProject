@@ -39,7 +39,7 @@ $pages-navbar-text-type-font-size-tablet: 0.875rem;  //14px
     }
 
     &:hover {
-      .pages-navbar__separator_hover {
+      .pages-navbar__separator_hover-image {
         display: block;
       }
 
@@ -71,7 +71,7 @@ $pages-navbar-text-type-font-size-tablet: 0.875rem;  //14px
       width: 57px;
     }
 
-    &_hover {
+    &_hover-image {
       width: 70px;
       height: 4px;
       background-color: #F38281;
