@@ -75,7 +75,6 @@ $navbar-search-height-tablet: 1rem;  //16px
       align-items: center;
     }
 
-
     @media (max-width: 1024px) {
       width: $navbar-link-width-tablet;
       font-size: $navbar-link-font-size-tablet;
@@ -86,7 +85,6 @@ $navbar-search-height-tablet: 1rem;  //16px
       border-bottom: 1px solid $navbar-link-text-color-hover;
       color: $navbar-link-text-color-hover;
     }
-
   }
 
   &__burger {
@@ -94,7 +92,6 @@ $navbar-search-height-tablet: 1rem;  //16px
     height: 56px;
     color: #fff;
     display: none;
-
 
     &_icon {
       width: 24px;

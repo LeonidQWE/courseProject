@@ -14,9 +14,6 @@ $btn-position-base-margin-top-desktop: 4.6875rem;  //75px
 $btn-position-base-margin-top-tablet: 3.125rem;  //50px
 $btn-position-base-margin-top-mobile: 3.0625rem;  //49px
 
-
-
-
 .btn {
   text-transform: uppercase;
   font-weight: 700;
@@ -90,8 +87,4 @@ $btn-position-base-margin-top-mobile: 3.0625rem;  //49px
     border-color: $btn-color-active;
     box-shadow: -1px 0px 10px 7px rgba(219, 57, 29, 0.2) inset;
   }
-
-
-
-
 }
